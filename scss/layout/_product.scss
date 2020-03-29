@@ -1,0 +1,229 @@
+.product-category-info{
+	margin-bottom: 40px;
+	&::after{
+	    content: '';
+	    display: block;
+	    height: 2px;
+	    background-color: #FFBD5A;
+	    width: 100px;
+	    margin: 0 auto;
+	}
+	.product-category-text{
+		margin-bottom: 40px;
+	}
+}
+.product-item-list{
+	.product-item{
+		margin-bottom: 40px;
+		&::after{
+			content: '';
+	    	display: block;
+		    height: 2px;
+		    background-color: #FFBD5A;
+		    width: 100px;
+		    margin: 0 auto;
+		}
+		&:last-child{
+			margin-bottom: 0;
+
+			&::after {
+			    background: none;
+			}
+		}
+		.product-info{
+			margin-bottom: 15px;
+			a{
+				font-size: 25px;
+    			font-weight: 700;
+    			font-family: 'Ubuntu', sans-serif;
+			}
+		}
+		.price-btn{
+		    padding: 12px 15px;
+		    width: 100%;
+		}
+		.pros-rating {
+		    padding: 7px 7px;
+		    font-size: 12px;
+		    height: 26px;
+		    width: 40px;
+		}
+		.product-img{
+			width: 40%;
+    		float: left;
+    		@media only screen and (max-width:980px){
+    			width: 100%;
+    		}
+			.product-rating {
+			    height: 43px;
+			    width: 42px;
+			    background: #fff;
+			    border-radius: 50%;
+			    border: 7px solid #efb141;
+			    line-height: 29px;
+			    text-align: center;
+			    position: absolute;
+			    right: 0;
+			    top: 15px;
+			    font-weight: 600;
+			    color: #656565;
+			    font-size: 15px;
+			}
+		}
+		.product-desc{
+			width: 60%;
+    		float: left;
+    		padding: 15px 15px 0 15px;
+    		@media only screen and (max-width:980px){
+    			width: 100%;
+    		}
+			h3{
+				font-size: 25px;
+	    		font-weight: 700;
+	    		font-family: 'Ubuntu', sans-serif;
+	    	}
+	    	.product-sepc{
+	    		color: $light-black;
+			    font-weight: 500;
+			    font-size: 17px;
+	    	}
+	    	.product-rating{
+	    		font-size: 40px;
+			    font-weight: 700;
+			    margin: 0px 0 15px 0;
+			    background: -webkit-linear-gradient(#00c0f7, #2596e2);
+  				-webkit-background-clip: text;
+  				-webkit-text-fill-color: transparent;
+	    	}
+	    	.product-promo-logo{
+	    		max-height: 115px;
+    			max-width: 95px;
+	    	}
+	    	.product-info-table{
+	    		width: 100%;
+	    		height:300px; 
+				display: -moz-groupbox;
+				position: relative;
+				margin-bottom: 0;
+
+		        tr {
+					width: 100%;
+					display: inline-table;
+					height:35px;
+					table-layout: fixed;
+					border: 2px solid #dedede;
+					border-bottom: 0;
+					border-radius: 5px;
+
+					@media only screen and (max-width: 980px){
+						table-layout: inherit;
+						height: auto;
+					}
+	
+					th{
+						border-top: none;
+						text-align: center;
+						font-weight: 600;
+						font-family: 'Ubuntu', sans-serif;
+						font-size: 13px;
+					}
+				}
+				tbody{
+				  	overflow-y: auto;
+				  	overflow-x: hidden;
+				  	height: 240px;
+				  	max-width: 100%;
+				  	position: absolute;
+					@media only screen and (max-width: 980px){
+						overflow-x: auto;
+						position: relative;
+					}
+				  	.store-logo{
+				  	    height: 40px;
+					    width: 90px;
+					    border-radius: 4px;
+					    border: 2px solid #dedede;
+					    padding: 5px;
+				  	}
+				  	button{
+				  		border: 2px solid #ff8800;
+					    background: transparent;
+					    color: #ff8800 !important;
+					    font-weight: 600;
+					    font-size: 12px;
+					    padding: 5px 30px;
+					    border-radius: 6px;
+					    text-transform: capitalize;
+					    margin: 0 auto;
+					    display: block;
+				  	}
+				  	td {
+					    padding-top: 0.6rem;
+					    padding-bottom: 0.6rem;
+					    vertical-align: middle;
+					    text-align: center;
+					    .p_list_td{
+							background: -webkit-linear-gradient(#00c0f7, #2596e2);
+						    -webkit-background-clip: text;
+						    -webkit-text-fill-color: transparent;
+						    font-weight: 600;
+					    }
+					}
+				}
+	    	}
+		}
+		.product-social-section{
+			margin: 25px auto 35px auto;
+
+			ul{
+				text-align: center;
+				list-style: none;
+				padding: 0;
+				li{
+					display: inline-block;
+				}
+			}
+		}
+		.pros, .cons{
+			h4{
+				font-weight: 700;
+				font-size: 18px;
+				font-family: 'Ubuntu', sans-serif;
+			}
+			ul{
+				padding: 0;
+				list-style: none;
+				li{
+					display: block;
+					margin: 5px 0;
+					font-family: 'Ubuntu', sans-serif;
+					span{
+						margin-right: 7px;
+						font-size: 15px;
+					}
+				}
+			}
+		}
+		.pros{
+			i{
+				color: #00C851;		
+			}
+		}
+		.cons{
+			i{
+				color: #ff4444;
+			}
+		}
+	}
+}
+.mCSB_inside>.mCSB_container {
+    margin-right: 15px;
+}
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgb(255, 189, 90);
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    position: relative;
+    width: 5px;
+}

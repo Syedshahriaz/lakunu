@@ -1,0 +1,45 @@
+/* ==|====================
+   Layout/Main
+   ======================= */
+   /*Edited*/
+   .feature-text{
+      margin-bottom: 20px;
+      font-family: $font2;
+      a{
+        font-weight: 500;
+        color: $light-black;
+        font-family: $font2;
+      }
+    }
+   .card{
+      .card-title {
+        font-size: 19px;
+        font-family: 'Ubuntu', sans-serif;
+        height: 40px;
+        overflow: hidden;
+      }
+      .card-text{
+            height: 80px;
+            overflow: hidden;
+        }
+   		.card-footer {
+   			.left{
+				  font-size: 18px;
+          color: $highlight-text;
+  				.discount{
+  					font-size: 14px;
+  				}
+   			}
+   			.right {
+   				a{
+  				    color: #757575;
+  				    margin-left: 1rem;
+  				    transition: 0.4s;
+  				    font-size: 18px;
+  				}
+			   }
+   		}
+   	} 
+
+
+          

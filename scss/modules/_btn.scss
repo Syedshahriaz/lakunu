@@ -1,0 +1,39 @@
+/* ==|====================
+   Module/Button
+   ======================= */
+button{
+    outline: 0;
+
+    &:hover {
+        outline: 0;
+    }
+    &:active {
+        outline: 0;
+    }
+    &:focus{
+        outline: 0;
+    }
+}
+.common-btn{
+    padding: 11px 28px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: transparent;
+    text-decoration: none;
+    outline: 0 !important;
+    &:focus{
+        outline: 0;
+    }
+    &:active{
+        outline: 0;
+    }
+}
+.black-btn{
+    background-color: $black-bg;
+    color: $white-text;
+}
+.btn-gray{
+    background-color: #d5d3d5;
+}
